@@ -29,16 +29,13 @@ cout << "   1" << setw (22) << n2 << endl;
 }
   
 while ((NUMBER <= c) && (c != 1))
-
 { 
  
    F = n1 + n2;
       const int 
 	arraysize = c;
-  
 int 
       b[arraysize] = { F };
-  
 cout << setw (4) << NUMBER << setw (22) << b[0] << endl;
     
 n1 = n2;      
